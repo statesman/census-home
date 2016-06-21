@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <?php
   $meta = array(
-    "title" => "Single page project | Statesman.com",
-    "description" => "Description for single-page-project.",
+    "title" => "Population changes and other census data | Statesman.com",
+    "description" => "A home for various U.S. Census related projects.",
     "thumbnail" => "http://projects.statesman.com/site_path/assets/share.jpg", // needs update
     "shortcut_icon" => "http://media.cmgdigital.com/shared/media/2015-11-16-11-32-05/web/site/www_mystatesman_com/images/favicon.ico",
     "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
@@ -83,12 +83,52 @@
 
     <div class="row">
       <div class="col-lg-12 interative-header">
-      <h1 id="pagetitle">Title</h1>
-      <p class="author">By So Andso</p>
-      <p>Lucas ipsum dolor sit amet boba calrissian amidala sith dooku solo moff organa obi-wan windu. Gamorrean binks wedge darth. Mon darth mon kit ponda solo. Moff watto ackbar mothma moff anakin. Lando skywalker lars fett calrissian lars organa. Organa kenobi wedge darth jawa skywalker anakin. Twi'lek kit darth calamari lando kamino droid. Darth jawa fett grievous maul. Palpatine obi-wan leia tusken raider dagobah. Twi'lek qui-gon boba antilles yoda thrawn. Wampa luuke wampa skywalker. Moff ponda ackbar dagobah kit lobot jinn solo.</p>
+      <h1 id="pagetitle">Counting ourselves</h1>
+      <!-- <p class="author">By So Andso</p> -->
+      <p>The <a href="">Statesman Interactives team</a> often tracks U.S. Census data releases and uses illustrations and interactives to help explain our changing demographics locally, in Texas and the nation. Please enjoy some of our more recent projects.</p>
+      </div>
+
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-sm-6 col-lg-4">
+        <div class="panel panel-default indextease">
+          <div class="panel-body">
+            <div class="document-img"><a href="page1.html"><img class="img-responsive" src="assets/2014-estimates.png" /></a></div>
+            <h3><a href="page1.html">New this week</a></h3>
+            <p>Description.</p>
+            <ul>
+              <li><a href="">this is the story url</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="panel panel-default indextease">
+          <div class="panel-body">
+            <div class="document-img"><a href="page2.html"><img class="img-responsive" src="assets/2015-estimates.png" /></a></div>
+            <h3><a href="http://projects.statesman.com/news/census/estimates-2015/">Austin 2.0 (million)</a></h3>
+            <p>A glance across our skyline or a drive up MoPac (good luck with that!) is all we need to see that Central Texas is growing like a playful Labrador puppy. But today, the U.S. Census Bureau released new statistics confirming what those big puppy paws told us would happen: We're growing awfully fast.</p>
+            <ul>
+              <li><a href="http://www.mystatesman.com/news/news/local/austin-metro-area-surpasses-2-million-residents/nqrQF/" target="_blank">Austin metro area surpasses 2 million residents</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="panel panel-default indextease">
+          <div class="panel-body">
+            <h4>March 26, 2015</h4>
+            <div class="document-img"><a href="page3.html"><img class="img-responsive" src="assets/2014-estimates.png" /></a></div>
+            <h3><a href="page3.html">Tracking Texas growth</a></h3>
+            <p>Census numbers from 2014 show the Austin area is still growing faster than any other major city, as it has been every year since 2010. Also, the influx of people moving into the five-county area centered around Austin is accelerating.</p>
+            <ul>
+              <li><a href="http://www.mystatesman.com/news/news/local/austin-metro-area-posts-high-growth-again-but-some/nkff7/" target="_blank">Austin metro area posts high growth again — but some ask, at what cost?</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-
 
   </article>
 

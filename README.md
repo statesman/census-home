@@ -1,7 +1,20 @@
-Single-page project
+Census home
 ==============================
 
-Framework for a single page project, though it could be multiple pages. Just less complex than our immersive-template setup.
+This is the home project for any Census-related projects we do. The idea is to have a collection of these projects that can be updated quickly when new data releases come out, then we can add some specific interactives to help us tell actual stories.
+
+## Project list
+
+The idea is to add new projects to this README and also to the project index.
+
+- [census-estimates-2014](https://github.com/statesman/census-estimates-2014)
+- [census-estimates-2015](https://github.com/statesman/census-estimates-2015)
+- [census-estimates-detail]()
+
+
+# Project development
+
+This uses the rramework for a single page project, though it could be multiple pages. Just less complex than our immersive-template setup.
 
 ## Steps when you set up a project
 
@@ -10,8 +23,6 @@ Framework for a single page project, though it could be multiple pages. Just les
 * Update the `slug` and `projectsDirectory` variables in `Gruntfile.js`.
 * Update the `thumbnail` and `url` variables at the top of `index.php`.
 * Run the default `grunt` task.
-
-(At one point we used bower to pull in font-awesome, bootstrap and jquery, but these are now pulled in through npm.)
 
 ### Public folder
 There is a `public` folder that has the published files:
