@@ -7,7 +7,7 @@
   $meta = array(
     "title" => "Population changes and other census data | Statesman.com",
     "description" => "A home for various U.S. Census related projects.",
-    "thumbnail" => "http://projects.statesman.com/census/assets/share.jpg", // needs update
+    "thumbnail" => "http://projects.statesman.com/census/assets/share.png", // needs update
     "shortcut_icon" => "http://media.cmgdigital.com/shared/media/2015-11-16-11-32-05/web/site/www_mystatesman_com/images/favicon.ico",
     "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
     "url" => "http://projects.statesman.com/census/", // needs update
@@ -114,7 +114,7 @@
         <div class="panel panel-default indextease">
           <div class="panel-body">
             <div class="document-img"><a href=""><img class="img-responsive" src="assets/2014-estimates.png" /></a></div>
-            <h3><a href="">New this week</a></h3>
+            <h3><a href="">Texas transforms: A demographic deep dive</a></h3>
             <h5>March 26, 2015</h5>
             <p>Description.</p>
             <ul class="fa-ul">
