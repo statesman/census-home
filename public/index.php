@@ -85,7 +85,7 @@
       <div class="col-lg-12 interative-header">
       <h1 id="pagetitle">Counting ourselves</h1>
       <!-- <p class="author">By So Andso</p> -->
-      <p>The <a href="">Statesman Interactives team</a> often tracks U.S. Census data releases and uses illustrations and interactives to help explain our changing demographics locally, in Texas and the nation. Please enjoy some of our more recent projects.</p>
+      <p>The <a href="https://github.com/statesman/team/blob/master/README.md">Statesman Interactives team</a> often tracks U.S. Census data releases and uses illustrations and interactives to help explain our changing demographics locally, in Texas and the nation. Please enjoy some of our more recent projects.</p>
       </div>
 
     </div>
