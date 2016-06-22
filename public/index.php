@@ -91,6 +91,25 @@
     <hr>
     <div class="row grid">
 
+
+
+<!-- template for new story:
+
+       <div class="col-sm-6 col-lg-4 grid-item">
+        <div class="panel panel-default indextease">
+          <div class="panel-body">
+            <div class="document-img"><a href="interactive_url"><img class="img-responsive" src="assets/interative_thumbnail.png" /></a></div>
+            <h3><a href="interactive_url">interactive_title</a></h3>
+            <h5>publish_date</h5>
+            <p>interactive_description</p>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="story_url">story_title</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+ -->
+
     <div class="col-sm-6 col-lg-4 grid-item">
         <div class="panel panel-default indextease">
           <div class="panel-body">
