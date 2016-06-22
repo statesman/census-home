@@ -11,7 +11,7 @@
     "shortcut_icon" => "http://media.cmgdigital.com/shared/media/2015-11-16-11-32-05/web/site/www_mystatesman_com/images/favicon.ico",
     "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
     "url" => "http://projects.statesman.com/census/", // needs update
-    "twitter" => "statesman"
+    "twitter" => "aasinteractive"
   );
 ?>
 
@@ -66,8 +66,8 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="./">Home <span class="sr-only">(current)</span></a></li>
-        <li class="visible-xs small-social"><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
+<!--         <li class="active"><a href="./">Home <span class="sr-only">(current)</span></a></li>
+ -->        <li class="visible-xs small-social"><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
       </ul>
         <ul class="nav navbar-nav navbar-right social hidden-xs">
           <li><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a></li>
@@ -90,7 +90,7 @@
     </div>
     <hr>
     <div class="row">
-      <div class="col-sm-6 col-lg-4">
+<!--       <div class="col-sm-6 col-lg-4">
         <div class="panel panel-default indextease">
           <div class="panel-body">
             <div class="document-img"><a href=""><img class="img-responsive" src="assets/2014-estimates.png" /></a></div>
@@ -103,7 +103,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-lg-4">
+ -->      <div class="col-sm-6 col-lg-4">
         <div class="panel panel-default indextease">
           <div class="panel-body">
             <div class="document-img"><a href="estimates-2015/"><img class="img-responsive" src="assets/2015-estimates.png" /></a></div>
@@ -119,8 +119,8 @@
       <div class="col-sm-6 col-lg-4">
         <div class="panel panel-default indextease">
           <div class="panel-body">
-            <div class="document-img"><a href="/estimates-2014/"><img class="img-responsive" src="assets/2014-estimates.png" /></a></div>
-            <h3><a href="/estimates-2014/">Tracking Texas growth by county</a></h3>
+            <div class="document-img"><a href="estimates-2014/"><img class="img-responsive" src="assets/2014-estimates.png" /></a></div>
+            <h3><a href="estimates-2014/">Tracking Texas growth by county</a></h3>
             <h5>March 26, 2015</h5>
             <p>Census estimates for 2014 show the Austin area is still growing faster than any other major city, as it has been every year since 2010. Also, the influx of people moving into the five-county area centered around Austin is accelerating.</p>
             <ul class="fa-ul">
@@ -178,6 +178,19 @@
             <p>A look at how income distribution changed in Central Texas counties from 2008 to 2012.</p>
             <ul class="fa-ul">
               <li><i class="fa-li fa fa-angle-double-right"></i><a href="http://www.mystatesman.com/news/news/local/despite-signs-economy-is-rebounding-austin-metro-a/nZ2Rs/">Despite signs economy is rebounding, Austin metro area poverty rate doesn't fall</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+       <div class="col-sm-6 col-lg-4">
+        <div class="panel panel-default indextease">
+          <div class="panel-body">
+            <div class="document-img"><a href="http://www.mystatesman.com/interactive/news/commuter-adjusted-populations-in-Texas/"><img class="img-responsive" src="assets/2013-commuters.png" /></a></div>
+            <h3><a href="http://www.mystatesman.com/interactive/news/commuter-adjusted-populations-in-Texas/">Commuter-adjusted population for Texas</a></h3>
+            <h5>July 7, 2013</h5>
+            <p>Austin ranks 9th nationally in the percentage increase of commuter-adjusted population vs. resident population, when considering cities greater than 500,000 residents.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="http://www.mystatesman.com/news/news/local/austins-population-swells-with-commuters-during-th/nYf4c/">Austin’s population swells with commuters during the day</a></li>
             </ul>
           </div>
         </div>
