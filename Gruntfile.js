@@ -154,7 +154,7 @@ module.exports = function(grunt) {
 
           // do whatever makes you feel happy here
           var payload = {
-              "text": "yo dawg i heard you like pushing code to *" + slug + "*: " + ftp_path,
+              "text": "Someone just pushed *" + slug + "*: " + ftp_path,
               "channel": "#bakery",
               "username": "gruntbot",
               "icon_url": "http://vermilion1.github.io/presentations/grunt/images/grunt-logo.png"
