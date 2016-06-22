@@ -6,13 +6,13 @@ module.exports = function(grunt) {
 
   // This is the slug title of the project
   // For example, "single-page-project"
-  var slug = "";
+  var slug = "census";
 
   // This is the projects folder where the project will be deployed
   // For example:
   //     Enter "news" for http://projects.statesman.com/news
   //     Enter "sports" for http://projects.statesman.com/sports
-  var projectsDirectory = "";
+  var projectsDirectory = "news";
 
   // This is the directory path to your project on the stage/prod servers
   var site_path = projectsDirectory + "/" + slug;
@@ -114,7 +114,8 @@ module.exports = function(grunt) {
         dest: '/stage_aas/projects/' + site_path,
         exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
         simple: false,
-        useList: false
+        useList: false,
+        keep: ['test.txt','newtest.txt','*']
       },
       // prod path will need to change
       prod: {
@@ -124,7 +125,7 @@ module.exports = function(grunt) {
           authKey: 'cmg'
         },
         src: 'public',
-        dest: '/stage_aas/projects/' + site_path,
+        dest: '/prod_aas/projects/' + site_path,
         exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
         simple: false,
         useList: false
@@ -152,8 +153,8 @@ module.exports = function(grunt) {
           var payload = {
               "text": "yo dawg i heard you like pushing code to *" + slug + "*: " + ftp_path,
               "channel": "#bakery",
-              "username": "Xzibit",
-              "icon_url": "http://projects.statesman.com/slack/icon_img/xzibit.jpg"
+              "username": "gruntbot",
+              "icon_url": "http://vermilion1.github.io/presentations/grunt/images/grunt-logo.png"
           };
 
           // send the request
@@ -186,7 +187,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-bootlint');
 
   grunt.registerTask('default', ['copy', 'less', 'jshint','bootlint','uglify']);
-  grunt.registerTask('stage', ['default','ftpush:stage','slack:stage']);
+  grunt.registerTask('stage', ['default','ftpush:stage']);
+//  grunt.registerTask('stage', ['default','ftpush:stage','slack:stage']);
   grunt.registerTask('prod', ['default','ftpush:prod','slack:prod']);
 
 };

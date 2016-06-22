@@ -7,10 +7,10 @@
   $meta = array(
     "title" => "Population changes and other census data | Statesman.com",
     "description" => "A home for various U.S. Census related projects.",
-    "thumbnail" => "http://projects.statesman.com/site_path/assets/share.jpg", // needs update
+    "thumbnail" => "http://projects.statesman.com/census/assets/share.jpg", // needs update
     "shortcut_icon" => "http://media.cmgdigital.com/shared/media/2015-11-16-11-32-05/web/site/www_mystatesman_com/images/favicon.ico",
     "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
-    "url" => "http://projects.statesman.com/site_path/", // needs update
+    "url" => "http://projects.statesman.com/census/", // needs update
     "twitter" => "statesman"
   );
 ?>
@@ -67,7 +67,6 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="./">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
         <li class="visible-xs small-social"><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
       </ul>
         <ul class="nav navbar-nav navbar-right social hidden-xs">
@@ -107,8 +106,8 @@
       <div class="col-sm-6 col-lg-4">
         <div class="panel panel-default indextease">
           <div class="panel-body">
-            <div class="document-img"><a href="http://projects.statesman.com/news/census/estimates-2015/"><img class="img-responsive" src="assets/2015-estimates.png" /></a></div>
-            <h3><a href="http://projects.statesman.com/news/census/estimates-2015/">Austin 2.0 (million)</a></h3>
+            <div class="document-img"><a href="estimates-2015/"><img class="img-responsive" src="assets/2015-estimates.png" /></a></div>
+            <h3><a href="estimates-2015/">Austin 2.0 (million)</a></h3>
             <h5>March 24, 2016</h5>
             <p>A glance across our skyline or a drive up MoPac (good luck with that!) is all we need to see that Central Texas is growing like a playful Labrador puppy. But March 2016 U.S. Census Bureau statistics confirmed what those big puppy paws told us would happen: We're growing awfully fast.</p>
             <ul class="fa-ul">
@@ -120,8 +119,8 @@
       <div class="col-sm-6 col-lg-4">
         <div class="panel panel-default indextease">
           <div class="panel-body">
-            <div class="document-img"><a href="http://projects.statesman.com/news/census/estimates-2014/"><img class="img-responsive" src="assets/2014-estimates.png" /></a></div>
-            <h3><a href="http://projects.statesman.com/news/census/estimates-2014/">Tracking Texas growth by county</a></h3>
+            <div class="document-img"><a href="/estimates-2014/"><img class="img-responsive" src="assets/2014-estimates.png" /></a></div>
+            <h3><a href="/estimates-2014/">Tracking Texas growth by county</a></h3>
             <h5>March 26, 2015</h5>
             <p>Census estimates for 2014 show the Austin area is still growing faster than any other major city, as it has been every year since 2010. Also, the influx of people moving into the five-county area centered around Austin is accelerating.</p>
             <ul class="fa-ul">
