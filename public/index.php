@@ -94,11 +94,12 @@
       <div class="col-sm-6 col-lg-4">
         <div class="panel panel-default indextease">
           <div class="panel-body">
-            <div class="document-img"><a href="page1.html"><img class="img-responsive" src="assets/2014-estimates.png" /></a></div>
-            <h3><a href="page1.html">New this week</a></h3>
+            <div class="document-img"><a href=""><img class="img-responsive" src="assets/2014-estimates.png" /></a></div>
+            <h3><a href="">New this week</a></h3>
+            <h5>March 26, 2015</h5>
             <p>Description.</p>
-            <ul>
-              <li><a href="">this is the story url</a></li>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="">this is the story url</a></li>
             </ul>
           </div>
         </div>
@@ -106,11 +107,12 @@
       <div class="col-sm-6 col-lg-4">
         <div class="panel panel-default indextease">
           <div class="panel-body">
-            <div class="document-img"><a href="page2.html"><img class="img-responsive" src="assets/2015-estimates.png" /></a></div>
+            <div class="document-img"><a href="http://projects.statesman.com/news/census/estimates-2015/"><img class="img-responsive" src="assets/2015-estimates.png" /></a></div>
             <h3><a href="http://projects.statesman.com/news/census/estimates-2015/">Austin 2.0 (million)</a></h3>
-            <p>A glance across our skyline or a drive up MoPac (good luck with that!) is all we need to see that Central Texas is growing like a playful Labrador puppy. But today, the U.S. Census Bureau released new statistics confirming what those big puppy paws told us would happen: We're growing awfully fast.</p>
-            <ul>
-              <li><a href="http://www.mystatesman.com/news/news/local/austin-metro-area-surpasses-2-million-residents/nqrQF/" target="_blank">Austin metro area surpasses 2 million residents</a></li>
+            <h5>March 24, 2016</h5>
+            <p>A glance across our skyline or a drive up MoPac (good luck with that!) is all we need to see that Central Texas is growing like a playful Labrador puppy. But March 2016 U.S. Census Bureau statistics confirmed what those big puppy paws told us would happen: We're growing awfully fast.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="http://www.mystatesman.com/news/news/local/austin-metro-area-surpasses-2-million-residents/nqrQF/" target="_blank">Austin metro area surpasses 2 million residents</a></li>
             </ul>
           </div>
         </div>
@@ -118,16 +120,85 @@
       <div class="col-sm-6 col-lg-4">
         <div class="panel panel-default indextease">
           <div class="panel-body">
-            <h4>March 26, 2015</h4>
-            <div class="document-img"><a href="page3.html"><img class="img-responsive" src="assets/2014-estimates.png" /></a></div>
-            <h3><a href="page3.html">Tracking Texas growth</a></h3>
-            <p>Census numbers from 2014 show the Austin area is still growing faster than any other major city, as it has been every year since 2010. Also, the influx of people moving into the five-county area centered around Austin is accelerating.</p>
-            <ul>
-              <li><a href="http://www.mystatesman.com/news/news/local/austin-metro-area-posts-high-growth-again-but-some/nkff7/" target="_blank">Austin metro area posts high growth again — but some ask, at what cost?</a></li>
+            <div class="document-img"><a href="http://projects.statesman.com/news/census/estimates-2014/"><img class="img-responsive" src="assets/2014-estimates.png" /></a></div>
+            <h3><a href="http://projects.statesman.com/news/census/estimates-2014/">Tracking Texas growth by county</a></h3>
+            <h5>March 26, 2015</h5>
+            <p>Census estimates for 2014 show the Austin area is still growing faster than any other major city, as it has been every year since 2010. Also, the influx of people moving into the five-county area centered around Austin is accelerating.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="http://www.mystatesman.com/news/news/local/austin-metro-area-posts-high-growth-again-but-some/nkff7/" target="_blank">Austin metro area posts high growth again — but some ask, at what cost?</a></li>
             </ul>
           </div>
         </div>
       </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="panel panel-default indextease">
+          <div class="panel-body">
+            <div class="document-img"><a href="http://www.mystatesman.com/interactive/news/2013-city-population-estimates/"><img class="img-responsive" src="assets/2013-estimates-places.png" /></a></div>
+            <h3><a href="http://www.mystatesman.com/interactive/news/2013-city-population-estimates/">Central Texas cities lead nation in growth</a></h3>
+            <h5>May 21, 2014</h5>
+            <p>San Marcos, Georgetown and Cedar Park are in the top 10 of fastest-growing cities with more than 50,000 people from 2012-2013.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="http://www.mystatesman.com/news/news/why-san-marcos-is-the-nations-fastest-growing-city/nf5QC/" target="_blank">Why San Marcos is the nation's fastest-growing city</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="panel panel-default indextease">
+          <div class="panel-body">
+            <div class="document-img"><a href="http://www.mystatesman.com/interactive/news/2013-population-estimates/"><img class="img-responsive" src="assets/2013-estimates-metro.png" /></a></div>
+            <h3><a href="http://www.mystatesman.com/interactive/news/2013-population-estimates/">Metro-area growth, 2013</a></h3>
+            <h5>March 27, 2014</h5>
+            <p>The Austin-Round Rock area has led percentage of growth among all metro areas of 1 million population or more since 2010, according to the U.S. Census Bureau.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="http://www.mystatesman.com/news/news/austin-by-the-numbers-is-continuing-to-boom-census/nfL95/">Austin, by the numbers, is continuing to boom, census data shows</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="panel panel-default indextease">
+          <div class="panel-body">
+            <div class="document-img"><a href="http://www.mystatesman.com/interactive/family-income-distribution/"><img class="img-responsive" src="assets/2012-income-places.png" /></a></div>
+            <h3><a href="http://www.mystatesman.com/interactive/family-income-distribution/">Income comparison, 2007-2009 to 2010-2012</a></h3>
+            <h5>Nov. 13, 2013</h5>
+            <p>We compare income distribution in select Central Texas cities, using U.S. Census survey data from 2007-09 and 2010-12.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="http://www.mystatesman.com/news/news/local/as-austin-and-most-suburbs-grow-so-does-poverty/nbrh9/">As Austin and most suburbs grow, so does poverty</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="panel panel-default indextease">
+          <div class="panel-body">
+            <div class="document-img"><a href="http://www.mystatesman.com/interactive/family-income-central-texas/"><img class="img-responsive" src="assets/2012-income-counties.png" /></a></div>
+            <h3><a href="http://www.mystatesman.com/interactive/family-income-central-texas/">Family income in Central Texas, 2012</a></h3>
+            <h5>Sept. 19, 2013</h5>
+            <p>A look at how income distribution changed in Central Texas counties from 2008 to 2012.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="http://www.mystatesman.com/news/news/local/despite-signs-economy-is-rebounding-austin-metro-a/nZ2Rs/">Despite signs economy is rebounding, Austin metro area poverty rate doesn't fall</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+<!--
+       <div class="col-sm-6 col-lg-4">
+        <div class="panel panel-default indextease">
+          <div class="panel-body">
+            <div class="document-img"><a href="interactive_url"><img class="img-responsive" src="assets/interactive_thumbnail.png" /></a></div>
+            <h3><a href="interactive_url">headline</a></h3>
+            <h5>published_date</h5>
+            <p>interactive_description</p>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="story_url">story_headline</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+ -->
     </div>
 
   </article>
