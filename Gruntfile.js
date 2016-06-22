@@ -103,6 +103,8 @@ module.exports = function(grunt) {
     },
 
     // stage path needs to be set
+    // this project includes a `keep` segment to other projects
+    // inside `/news/census` are not deleted upon deployment
     ftpush: {
       stage: {
         auth: {
