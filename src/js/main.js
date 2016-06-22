@@ -8,6 +8,17 @@
 
     var data_url = 'data.json';
 
+    $('.grid').masonry({
+      // options
+      itemSelector: '.grid-item',
+      // columnWidth: 200
+    });
+
+    $grid.imagesLoaded().progress( function() {
+      $grid.masonry('layout');
+    });
+
+
 //    $(document).ready(function() {
 //        $.getJSON(data_url, function(d) {
 //        }
