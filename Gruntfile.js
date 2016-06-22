@@ -67,6 +67,7 @@ module.exports = function(grunt) {
             'node_modules/bootstrap/js/collapse.js',
             'node_modules/bootstrap/js/dropdown.js',
             'node_modules/bootstrap/js/transition.js',
+            'node_modules/masonry-layout/dist/masonry.pkgd.min.js',
             'src/js/main.js'
           ]
         }

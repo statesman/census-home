@@ -23,6 +23,7 @@
   "dependencies": {
     "bootstrap": "^3.3.6",
     "font-awesome": "^4.6.1",
-    "jquery": "^2.2.3"
+    "jquery": "^2.2.3",
+    "masonry-layout": "^4.1.0"
   }
 }

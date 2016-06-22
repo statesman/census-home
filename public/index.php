@@ -89,8 +89,9 @@
 
     </div>
     <hr>
-    <div class="row">
-<!--       <div class="col-sm-6 col-lg-4">
+    <div class="row grid">
+
+    <div class="col-sm-6 col-lg-4 grid-item">
         <div class="panel panel-default indextease">
           <div class="panel-body">
             <div class="document-img"><a href=""><img class="img-responsive" src="assets/2014-estimates.png" /></a></div>
@@ -103,7 +104,7 @@
           </div>
         </div>
       </div>
- -->      <div class="col-sm-6 col-lg-4">
+      <div class="col-sm-6 col-lg-4 grid-item">
         <div class="panel panel-default indextease">
           <div class="panel-body">
             <div class="document-img"><a href="estimates-2015/"><img class="img-responsive" src="assets/2015-estimates.png" /></a></div>
@@ -116,7 +117,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-lg-4">
+      <div class="col-sm-6 col-lg-4 grid-item">
         <div class="panel panel-default indextease">
           <div class="panel-body">
             <div class="document-img"><a href="estimates-2014/"><img class="img-responsive" src="assets/2014-estimates.png" /></a></div>
@@ -129,7 +130,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-lg-4">
+      <div class="col-sm-6 col-lg-4 grid-item">
         <div class="panel panel-default indextease">
           <div class="panel-body">
             <div class="document-img"><a href="http://www.mystatesman.com/interactive/news/2013-city-population-estimates/"><img class="img-responsive" src="assets/2013-estimates-places.png" /></a></div>
@@ -139,11 +140,10 @@
             <ul class="fa-ul">
               <li><i class="fa-li fa fa-angle-double-right"></i><a href="http://www.mystatesman.com/news/news/why-san-marcos-is-the-nations-fastest-growing-city/nf5QC/" target="_blank">Why San Marcos is the nation's fastest-growing city</a></li>
             </ul>
-
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-lg-4">
+      <div class="col-sm-6 col-lg-4 grid-item">
         <div class="panel panel-default indextease">
           <div class="panel-body">
             <div class="document-img"><a href="http://www.mystatesman.com/interactive/news/2013-population-estimates/"><img class="img-responsive" src="assets/2013-estimates-metro.png" /></a></div>
@@ -156,7 +156,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-lg-4">
+      <div class="col-sm-6 col-lg-4 grid-item">
         <div class="panel panel-default indextease">
           <div class="panel-body">
             <div class="document-img"><a href="http://www.mystatesman.com/interactive/family-income-distribution/"><img class="img-responsive" src="assets/2012-income-places.png" /></a></div>
@@ -169,7 +169,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-lg-4">
+      <div class="col-sm-6 col-lg-4 grid-item">
         <div class="panel panel-default indextease">
           <div class="panel-body">
             <div class="document-img"><a href="http://www.mystatesman.com/interactive/family-income-central-texas/"><img class="img-responsive" src="assets/2012-income-counties.png" /></a></div>
@@ -182,7 +182,7 @@
           </div>
         </div>
       </div>
-       <div class="col-sm-6 col-lg-4">
+       <div class="col-sm-6 col-lg-4 grid-item">
         <div class="panel panel-default indextease">
           <div class="panel-body">
             <div class="document-img"><a href="http://www.mystatesman.com/interactive/news/commuter-adjusted-populations-in-Texas/"><img class="img-responsive" src="assets/2013-commuters.png" /></a></div>
@@ -196,21 +196,6 @@
         </div>
       </div>
 
-<!--
-       <div class="col-sm-6 col-lg-4">
-        <div class="panel panel-default indextease">
-          <div class="panel-body">
-            <div class="document-img"><a href="interactive_url"><img class="img-responsive" src="assets/interactive_thumbnail.png" /></a></div>
-            <h3><a href="interactive_url">headline</a></h3>
-            <h5>published_date</h5>
-            <p>interactive_description</p>
-            <ul class="fa-ul">
-              <li><i class="fa-li fa fa-angle-double-right"></i><a href="story_url">story_headline</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
- -->
     </div>
 
   </article>
