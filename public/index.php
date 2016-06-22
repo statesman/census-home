@@ -7,10 +7,10 @@
   $meta = array(
     "title" => "Population changes and other census data | Statesman.com",
     "description" => "A home for various U.S. Census related projects.",
-    "thumbnail" => "http://projects.statesman.com/census/assets/share.png", // needs update
+    "thumbnail" => "http://projects.statesman.com/news/census/assets/share.png", // needs update
     "shortcut_icon" => "http://media.cmgdigital.com/shared/media/2015-11-16-11-32-05/web/site/www_mystatesman_com/images/favicon.ico",
     "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
-    "url" => "http://projects.statesman.com/census/", // needs update
+    "url" => "http://projects.statesman.com/news/census/", // needs update
     "twitter" => "aasinteractive"
   );
 ?>
