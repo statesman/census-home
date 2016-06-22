@@ -7,10 +7,11 @@ This is the home project for any Census-related projects we do. The idea is to h
 
 The idea is to add new projects to this README and also to the project index.
 
-- [census-estimates-2014](https://github.com/statesman/census-estimates-2014)
+- [census-estimates-detail](https://github.com/statesman/census-estimates-detail)
 - [census-estimates-2015](https://github.com/statesman/census-estimates-2015)
-- [census-estimates-detail]()
+- [census-estimates-2014](https://github.com/statesman/census-estimates-2014)
 
+There are other projects on the index, but they are not repo-based projects.
 
 # Project development
 
@@ -23,6 +24,8 @@ This uses the rramework for a single page project, though it could be multiple p
 * Update the `slug` and `projectsDirectory` variables in `Gruntfile.js`.
 * Update the `thumbnail` and `url` variables at the top of `index.php`.
 * Run the default `grunt` task.
+
+**NOTE:** One difference with this project compared to other single-page-projects is the inclusion of a `keep:` command in the ftppush node of the `.Gruntfile`. This ensures the projects published inside it are not blown away by this project.
 
 ### Public folder
 There is a `public` folder that has the published files:
