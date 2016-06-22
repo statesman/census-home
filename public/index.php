@@ -110,7 +110,7 @@
       </div>
  -->
 
-    <div class="col-sm-6 col-lg-4 grid-item">
+<!--     <div class="col-sm-6 col-lg-4 grid-item">
         <div class="panel panel-default indextease">
           <div class="panel-body">
             <div class="document-img"><a href=""><img class="img-responsive" src="assets/2014-estimates.png" /></a></div>
@@ -123,7 +123,8 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-lg-4 grid-item">
+ -->
+     <div class="col-sm-6 col-lg-4 grid-item">
         <div class="panel panel-default indextease">
           <div class="panel-body">
             <div class="document-img"><a href="estimates-2015/"><img class="img-responsive" src="assets/2015-estimates.png" /></a></div>
