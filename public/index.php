@@ -91,7 +91,14 @@
     <hr>
     <div class="row grid">
 
-
+    <script type="text/html" class="template">
+      <% _.each(card, function(d) { %>
+        <div class="col-sm-6 col-lg-4 grid-item">
+        <p>yes</p>
+        <%= d.interactivetitle %>
+        </div>
+      <% }); %>
+    </script>
 
 <!-- template for new story:
 
