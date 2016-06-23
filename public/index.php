@@ -110,20 +110,19 @@
       </div>
  -->
 
-<!--     <div class="col-sm-6 col-lg-4 grid-item">
+     <div class="col-sm-6 col-lg-4 grid-item">
         <div class="panel panel-default indextease">
           <div class="panel-body">
-            <div class="document-img"><a href=""><img class="img-responsive" src="assets/2014-estimates.png" /></a></div>
-            <h3><a href="">Texas transforms: A demographic deep dive</a></h3>
-            <h5>March 26, 2015</h5>
-            <p>Description.</p>
+            <div class="document-img"><a href="estimates-detail-2015/"><img class="img-responsive" src="assets/2015-estimates-details.png" /></a></div>
+            <h3><a href="estimates-detail-2015/">Texas transforms: A demographic deep dive</a></h3>
+            <h5>June 23, 2016</h5>
+            <p>The Census Bureau released detailed demographic data about Texas counties, including age, gender, race and ethnicity. Explore how the the population of our state and counties have changed over time, from 2010 to 2015.</p>
             <ul class="fa-ul">
-              <li><i class="fa-li fa fa-angle-double-right"></i><a href="">this is the story url</a></li>
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="http://www.mystatesman.com/news/news/local/jobs-schools-bring-growing-asian-population-north/nrk9D/">Jobs, schools bring growing Asian population north</a></li>
             </ul>
           </div>
         </div>
       </div>
- -->
      <div class="col-sm-6 col-lg-4 grid-item">
         <div class="panel panel-default indextease">
           <div class="panel-body">
