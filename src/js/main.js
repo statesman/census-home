@@ -17,12 +17,14 @@
     });
 
 
-//    var data_url = 'data.json';
-
-//    $(document).ready(function() {
-//        $.getJSON(data_url, function(d) {
-//        }
-//    };
+    var data_url = 'https://spreadsheets.google.com/feeds/list/13C56oZu-JNau-pk6W4RxjOne-BVbAlxU0sxcXeZAEBY/od6/public/basic?alt=json';
 
 
-}(jQuery));
+    $(document).ready(function() {
+        $.getJSON(data_url, function(d) {
+        });
+    });
+    
+
+
+}(jQuery, _));
