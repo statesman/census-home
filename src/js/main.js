@@ -19,23 +19,29 @@
       $grid.masonry('layout');
     });
 
-    // set global template variable
-    _.templateSettings.variable = "card";
+    // set global template variable that helps format the data
+    _.templateSettings.variable = "cards";
 
-    // fetch template for list div
-    var template = _.template($( "script.template" ).html());
+    // function data is going into
+    var display_data = function(data) {
+        // template var the underscrore template in correct div
+        var template = _.template($( "#template" ).html());
+        //jquery putting the template inside of the div in index
+        $('#card-container').append(template(data));
 
+    };
 
-    // where the data is
+   // where the data is
     // can save this down as data/data.json
     var data_url = 'data/data02.json';
 
+     // get the date from the file
     $(document).ready(function() {
         $.getJSON(data_url, function(d) {
-            console.log(d);
+            // feeding the display_cards function with formatted data
+            display_data(d);
         });
     });
-    
 
 
 }(jQuery, _));

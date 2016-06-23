@@ -89,13 +89,13 @@
 
     </div>
     <hr>
-    <div class="row grid">
+    <div class="row grid" id="card-container">
 
-    <script type="text/html" class="template">
-      <% _.each(card, function(d) { %>
-        <div class="col-sm-6 col-lg-4 grid-item">
+    <script type="text/template" id="template">
+      <% _.each(cards, function (d) { %>
+        <div class="col-sm-6 col-lg-4 grid-item crit">
         <p>yes</p>
-        <%= d.interactivetitle %>
+        <p><%= d.interactive_title %></p>
         </div>
       <% }); %>
     </script>
@@ -144,6 +144,7 @@
           </div>
         </div>
       </div>
+
       <div class="col-sm-6 col-lg-4 grid-item">
         <div class="panel panel-default indextease">
           <div class="panel-body">
