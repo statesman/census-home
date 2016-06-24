@@ -8,17 +8,6 @@
 // https://spreadsheets.google.com/feeds/list/13C56oZu-JNau-pk6W4RxjOne-BVbAlxU0sxcXeZAEBY/od6/public/basic?alt=json
 
 
-    // setting masonry grid class
-    var $grid = $('.grid').masonry({
-      // options
-      itemSelector: '.grid-item',
-    });
-
-    // imagesloaded helps masonry stacking once images loaded
-    $grid.imagesLoaded().progress( function() {
-      $grid.masonry('layout');
-    });
-
     // set global template variable that helps format the data
     // puts the data in a scope that is specific to the template
     _.templateSettings.variable = "cards";
@@ -29,6 +18,7 @@
         var template = _.template($( "#template" ).html());
         // jquery appending the template inside of the div in index
         $('#card-container').append(template(data));
+        console.log(template(data));
     };
 
     // Data from file into variable
@@ -41,6 +31,18 @@
             // feeding the display_data function with contents of d
             display_data(d);
         });
+    });
+
+    // setting masonry grid class
+    var $grid = $('.grid').masonry({
+      // options
+      itemSelector: '.grid-item',
+    });
+
+    // imagesloaded helps masonry stacking once images loaded
+    $grid.imagesLoaded().progress( function() {
+      $grid.masonry('layout');
+
     });
 
 

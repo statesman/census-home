@@ -88,7 +88,124 @@
       </div>
 
     </div>
+        <hr>
+        <h2>HTML version: Masonry works</h2>
+    <div class="row grid">
+
+
+    <div class="col-sm-6 col-lg-4 grid-item">
+        <div class="panel panel-default indextease">
+          <div class="panel-body">
+            <div class="document-img"><a href="estimates-detail-2015/"><img class="img-responsive" src="assets/2015-estimates-details.png" /></a></div>
+            <h3><a href="estimates-detail-2015/">Texas transforms: A demographic deep dive</a></h3>
+            <h5>June 23, 2016</h5>
+            <p>The Census Bureau released detailed demographic data about Texas counties, including age, gender, race and ethnicity. Explore how the the population of our state and counties have changed over time, from 2010 to 2015.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="http://www.mystatesman.com/news/news/local/jobs-schools-bring-growing-asian-population-north/nrk9D/">Jobs, schools bring growing Asian population north</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+     <div class="col-sm-6 col-lg-4 grid-item">
+        <div class="panel panel-default indextease">
+          <div class="panel-body">
+            <div class="document-img"><a href="estimates-2015/"><img class="img-responsive" src="assets/2015-estimates.png" /></a></div>
+            <h3><a href="estimates-2015/">Austin 2.0 (million)</a></h3>
+            <h5>March 24, 2016</h5>
+            <p>short.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="http://www.mystatesman.com/news/news/local/austin-metro-area-surpasses-2-million-residents/nqrQF/" target="_blank">Austin metro area surpasses 2 million residents</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 grid-item">
+        <div class="panel panel-default indextease">
+          <div class="panel-body">
+            <div class="document-img"><a href="estimates-2014/"><img class="img-responsive" src="assets/2014-estimates.png" /></a></div>
+            <h3><a href="estimates-2014/">Tracking Texas growth by county</a></h3>
+            <h5>March 26, 2015</h5>
+            <p>Census estimates for 2014 show the Austin area is still growing faster than any other major city, as it has been every year since 2010. Also, the influx of people moving into the five-county area centered around Austin is accelerating.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="http://www.mystatesman.com/news/news/local/austin-metro-area-posts-high-growth-again-but-some/nkff7/" target="_blank">Austin metro area posts high growth again — but some ask, at what cost?</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 grid-item">
+        <div class="panel panel-default indextease">
+          <div class="panel-body">
+            <div class="document-img"><a href="http://www.mystatesman.com/interactive/news/2013-city-population-estimates/"><img class="img-responsive" src="assets/2013-estimates-places.png" /></a></div>
+            <h3><a href="http://www.mystatesman.com/interactive/news/2013-city-population-estimates/">Central Texas cities lead nation in growth</a></h3>
+            <h5>May 21, 2014</h5>
+            <p>San Marcos, Georgetown and Cedar Park are in the top 10 of fastest-growing cities with more than 50,000 people from 2012-2013.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="http://www.mystatesman.com/news/news/why-san-marcos-is-the-nations-fastest-growing-city/nf5QC/" target="_blank">Why San Marcos is the nation's fastest-growing city</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 grid-item">
+        <div class="panel panel-default indextease">
+          <div class="panel-body">
+            <div class="document-img"><a href="http://www.mystatesman.com/interactive/news/2013-population-estimates/"><img class="img-responsive" src="assets/2013-estimates-metro.png" /></a></div>
+            <h3><a href="http://www.mystatesman.com/interactive/news/2013-population-estimates/">Metro-area growth, 2013</a></h3>
+            <h5>March 27, 2014</h5>
+            <p>The Austin-Round Rock area has led percentage of growth among all metro areas of 1 million population or more since 2010, according to the U.S. Census Bureau.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="http://www.mystatesman.com/news/news/austin-by-the-numbers-is-continuing-to-boom-census/nfL95/">Austin, by the numbers, is continuing to boom, census data shows</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 grid-item">
+        <div class="panel panel-default indextease">
+          <div class="panel-body">
+            <div class="document-img"><a href="http://www.mystatesman.com/interactive/family-income-distribution/"><img class="img-responsive" src="assets/2012-income-places.png" /></a></div>
+            <h3><a href="http://www.mystatesman.com/interactive/family-income-distribution/">Income comparison, 2007-2009 to 2010-2012</a></h3>
+            <h5>Nov. 13, 2013</h5>
+            <p>We compare income distribution in select Central Texas cities, using U.S. Census survey data from 2007-09 and 2010-12.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="http://www.mystatesman.com/news/news/local/as-austin-and-most-suburbs-grow-so-does-poverty/nbrh9/">As Austin and most suburbs grow, so does poverty</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 grid-item">
+        <div class="panel panel-default indextease">
+          <div class="panel-body">
+            <div class="document-img"><a href="http://www.mystatesman.com/interactive/family-income-central-texas/"><img class="img-responsive" src="assets/2012-income-counties.png" /></a></div>
+            <h3><a href="http://www.mystatesman.com/interactive/family-income-central-texas/">Family income in Central Texas, 2012</a></h3>
+            <h5>Sept. 19, 2013</h5>
+            <p>A look at how income distribution changed in Central Texas counties from 2008 to 2012.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="http://www.mystatesman.com/news/news/local/despite-signs-economy-is-rebounding-austin-metro-a/nZ2Rs/">Despite signs economy is rebounding, Austin metro area poverty rate doesn't fall</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+       <div class="col-sm-6 col-lg-4 grid-item">
+        <div class="panel panel-default indextease">
+          <div class="panel-body">
+            <div class="document-img"><a href="http://www.mystatesman.com/interactive/news/commuter-adjusted-populations-in-Texas/"><img class="img-responsive" src="assets/2013-commuters.png" /></a></div>
+            <h3><a href="http://www.mystatesman.com/interactive/news/commuter-adjusted-populations-in-Texas/">Commuter-adjusted population for Texas</a></h3>
+            <h5>July 7, 2013</h5>
+            <p>Austin ranks 9th nationally in the percentage increase of commuter-adjusted population vs. resident population, when considering cities greater than 500,000 residents.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-angle-double-right"></i><a href="http://www.mystatesman.com/news/news/local/austins-population-swells-with-commuters-during-th/nYf4c/">Austin’s population swells with commuters during the day</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
     <hr>
+    <h2>Underscore version: Masonry DOES NOT work</h2>
     <div class="row grid" id="card-container">
 
     <script type="text/html" id="template">
