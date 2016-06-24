@@ -1,12 +1,12 @@
 {
-  "name": "project_name",
-  "description": "Add description of the project.",
+  "name": "census_home",
+  "description": "An index page for our census projects.",
   "version": "1.2.0",
   "author": "Statesman Interactives <interactives@statesman.com>",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git@github.com:statesman/single-page-project.git"
+    "url": "git@github.com:statesman/census-home.git"
   },
   "devDependencies": {
     "grunt": "^0.4.0",
