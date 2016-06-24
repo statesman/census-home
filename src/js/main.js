@@ -20,25 +20,25 @@
     });
 
     // set global template variable that helps format the data
+    // puts the data in a scope that is specific to the template
     _.templateSettings.variable = "cards";
 
-    // function data is going into
+    // Setting up function and template that data will go into
     var display_data = function(data) {
-        // template var the underscrore template in correct div
+        // setting up div with the underscore template
         var template = _.template($( "#template" ).html());
-        //jquery putting the template inside of the div in index
+        // jquery appending the template inside of the div in index
         $('#card-container').append(template(data));
-
     };
 
-    // where the data is
-    // can save this down as data/data.json
+    // Data from file into variable
     var data_url = 'data/data02.json';
 
-     // get the date from the file
+    // Jquery method get the date from the file
     $(document).ready(function() {
+        // put the data in variable d
         $.getJSON(data_url, function(d) {
-            // feeding the display_cards function with formatted data
+            // feeding the display_data function with contents of d
             display_data(d);
         });
     });
