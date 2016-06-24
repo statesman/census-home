@@ -69,6 +69,7 @@ module.exports = function(grunt) {
             'node_modules/bootstrap/js/transition.js',
             'node_modules/masonry-layout/dist/masonry.pkgd.min.js',
             'node_modules/imagesloaded/imagesloaded.pkgd.min.js',
+            'node_modules/underscore/underscore-min.js',
             'src/js/main.js'
           ]
         }

@@ -3,6 +3,12 @@ Census home
 
 This is the home project for any Census-related projects we do. The idea is to have a collection of these projects that can be updated quickly when new data releases come out, then we can add some specific interactives to help us tell actual stories.
 
+## Updating the projects
+
+There is a Google spreadsheet [census-home data](https://docs.google.com/spreadsheets/d/13C56oZu-JNau-pk6W4RxjOne-BVbAlxU0sxcXeZAEBY/edit#gid=0) in the interactives@statesman.com account that has the data.
+
+Use [Mr. Data Converter](http://shancarter.github.io/mr-data-converter/) to copy & paste the contents of that, convert to JSON - Properties, then copy/paste into the `public/data/data.json`.
+
 ## Project list
 
 The idea is to add new projects to this README and also to the project index.
@@ -15,7 +21,7 @@ There are other projects on the index, but they are not repo-based projects.
 
 # Project development
 
-This uses the rramework for a single page project, though it could be multiple pages. Just less complex than our immersive-template setup.
+This uses the framework for a single page project, though it could be multiple pages. Just less complex than our immersive-template setup.
 
 ## Steps when you set up a project
 
