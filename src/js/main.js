@@ -19,6 +19,20 @@
         // jquery appending the template inside of the div in index
         $('#card-container').append(template(data));
         console.log(template(data));
+
+        // setting masonry grid class
+        var $grid = $('.grid').masonry({
+          // options
+          itemSelector: '.grid-item',
+        });
+
+        // imagesloaded helps masonry stacking once images loaded
+        $grid.imagesLoaded().progress( function() {
+          $grid.masonry('layout');
+
+        });
+
+
     };
 
     // Data from file into variable
@@ -33,17 +47,7 @@
         });
     });
 
-    // setting masonry grid class
-    var $grid = $('.grid').masonry({
-      // options
-      itemSelector: '.grid-item',
-    });
 
-    // imagesloaded helps masonry stacking once images loaded
-    $grid.imagesLoaded().progress( function() {
-      $grid.masonry('layout');
-
-    });
 
 
 }(jQuery, _));
