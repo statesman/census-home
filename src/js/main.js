@@ -2,11 +2,6 @@
 
   "use strict";
 
-// url for spreadsheet
-// https://docs.google.com/spreadsheets/d/13C56oZu-JNau-pk6W4RxjOne-BVbAlxU0sxcXeZAEBY/pubhtml
-// data url is
-// https://spreadsheets.google.com/feeds/list/13C56oZu-JNau-pk6W4RxjOne-BVbAlxU0sxcXeZAEBY/od6/public/basic?alt=json
-
 
     // set global template variable that helps format the data
     // puts the data in a scope that is specific to the template
@@ -31,12 +26,18 @@
           $grid.masonry('layout');
 
         });
-
-
     };
 
+
+// Data sources
+// Spreadsheet with source: https://docs.google.com/spreadsheets/d/13C56oZu-JNau-pk6W4RxjOne-BVbAlxU0sxcXeZAEBY/pubhtml
+// JSON url we could pull from
+// https://spreadsheets.google.com/feeds/list/13C56oZu-JNau-pk6W4RxjOne-BVbAlxU0sxcXeZAEBY/od6/public/basic?alt=json
+// But right now, we just convert with mrdataconverter
+
+
     // Data from file into variable
-    var data_url = 'data/data02.json';
+    var data_url = 'data/data.json';
 
     // Jquery method get the date from the file
     $(document).ready(function() {
