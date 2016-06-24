@@ -31,7 +31,7 @@
 
     };
 
-   // where the data is
+    // where the data is
     // can save this down as data/data.json
     var data_url = 'data/data02.json';
 
