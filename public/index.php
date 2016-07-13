@@ -98,7 +98,7 @@
         <div class="col-sm-6 col-lg-4 grid-item">
           <div class="panel panel-default indextease">
             <div class="panel-body">
-              <div class="document-img"><a href="interactive_url"><img class="img-responsive" src="assets/<%= d.interactive_thumbnail %>" /></a></div>
+              <div class="document-img"><a href="<%= d.interactive_url %>"><img class="img-responsive" src="assets/<%= d.interactive_thumbnail %>" /></a></div>
               <h3><a href="<%= d.interactive_url %>"><%= d.interactive_title %></a></h3>
               <h5><%= d.publish_date %></h5>
               <p><%= d.interactive_description %></p>
