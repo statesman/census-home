@@ -102,9 +102,11 @@
               <h3><a href="<%= d.interactive_url %>"><%= d.interactive_title %></a></h3>
               <h5><%= d.publish_date %></h5>
               <p><%= d.interactive_description %></p>
+              <% if (d.story_url !== '')  { %>
               <ul class="fa-ul">
                 <li><i class="fa-li fa fa-angle-double-right"></i><a href="<%= d.story_url %>"><%= d.story_title %></a></li>
               </ul>
+              <% } %>
             </div>
           </div>
         </div>
