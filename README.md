@@ -13,6 +13,8 @@ Use [Mr. Data Converter](http://shancarter.github.io/mr-data-converter/) to copy
 
 The idea is to add new projects to this README and also to the project index.
 
+- [census-estimates-2016-city](https://github.com/statesman/census-estimates-2016-city)
+- [census-estimates-2016-county](https://github.com/statesman/census-estimates-2016-county)
 - [census-estimates-detail](https://github.com/statesman/census-estimates-detail)
 - [census-estimates-2015](https://github.com/statesman/census-estimates-2015)
 - [census-estimates-2014](https://github.com/statesman/census-estimates-2014)
