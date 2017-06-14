@@ -8,7 +8,7 @@
     "title" => "Counting Ourselves | Statesman.com",
     "description" => "Explore how populations have changed in Central Texas and beyond.",
     "thumbnail" => "http://projects.statesman.com/news/census/assets/share.png", // needs update
-    "thumbnail_twitter" => "assets/share-tw.png",
+    "thumbnail_twitter" => "http://projects.statesman.com/news/census/assets/share-tw.png",
     "shortcut_icon" => "http://media.cmgdigital.com/shared/media/2015-11-16-11-32-05/web/site/www_mystatesman_com/images/favicon.ico",
     "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
     "url" => "http://projects.statesman.com/news/census/", // needs update
